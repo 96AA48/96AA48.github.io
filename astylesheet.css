@@ -25,12 +25,17 @@ section {
 }
 
 .hey {
-    background-image: url('images/A8AAE8C9FF.jpg');
+    background-image: url('images/mountains.jpg');
 }
 
 .next {
-    height: 20%;
     text-align: center;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -50px;
+    transition: 1s all;
+    
 }
 
 .next div {
@@ -50,4 +55,25 @@ section {
     letter-spacing: -3px;
     position: relative;
     left: -1px;
+}
+
+.whoami {
+    background-image: url('images/midnight.jpg');
+}
+
+.create {
+    background-image: url('images/sparkle.jpg');
+}
+
+.tech {
+    background-image: url('images/motherboard.jpg');
+}
+
+.me {
+    background-image: url('images/road.jpg');
+}
+
+.back {
+    transform: rotate(180deg);
+    transition: 1s all ease 2.5s;
 }
