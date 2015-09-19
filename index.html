@@ -7,39 +7,89 @@
     </head>
 
     <body>
-        <h1 class="start">Hey there,  my name is Bram</h1>
+        <h1 class="start">Hey there, my name is Bram van der Veen.
+        <br>Let me introduce myself.</h1>
         <section class="hey">
-            <div class="slidetext">
-                I'm a young programmer from Groningen, The Netherlands
+            <div class="faceholder">
+                <img src="/images/face.png" />
+                <div>Here's a picture, if you need it for some reason.</div>
             </div>
 
-            <div class="side left">
-            </div>
-
-            <div class="text">
-              Hi there, I'm Bram van der Veen. I enjoy making all sorts of stuff from websites and applications to some fun games on the side.
-              My favorite pasttime is gaming, as well as programming. I'm not afraid to work hard or get my hands dirty doing so. If you're looking for a programmer with enthusiasm by code, you found yourself one!
+            <div class="plateau facetext">
+                <p class="center">
+                    Hey there, you found the place on the internet that is suppose to represent me in personality and expertise.  While being horribly bad at writing introductionary texts for portfolio sites, I am proefficient in the making of loads of HTML, CSS and Javascript-y things like websites, blogs, fullstack webapplications, scripts, desktop applications and games. 
+                    <br>Please, feel free to check out the rest of my portfolio!
+                </p>
             </div>
 
         </section>
         <section class="whoami">
             <div class="slidetext">
-                And I'm a passionate <span class="dos">programmer</span>
+                I'm a passionate <span class="dos">programmer</span>
             </div>
 
-            <div class="">
-              I make stuff with my keyboard such as websites as well as server- and client-side applications with NodeJS, Electron and NW.js.<br>
-              I have 4 years of experience with webdesign, application design, full stack webdevelopment and some small time game development.
+            <div class="plateau center">
+               <h2 class="center">I make stuff with my keyboard and ...</h2>
+                <div class="buttons">
+                    <ul>
+                        <li>NW.js / Electron</li>
+                        <li>Node.js</li>
+                        <li>HTML / CSS</li>
+                    </ul>  
+                    <ul>
+                        <li>Unity3D</li>
+                        <li>Pen &amp; Paper</li>
+                        <li>Haxe</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="create">
+            
             <div class="slidetext">
-                I want to create great <span class="things">games</span> for everyone.
+                I create great <span class="things">games</span> for everyone.
             </div>
-        </section>
-        <section class="tech">
-            <div class="slidetext">
-                Knowledge of many things :
+            
+            <div class="showcase">
+                <div class="pane">
+                    <div class="plateau description visible">
+                        <h1>yplayer</h1>
+                        <hr>
+                        <p>
+                            Ever wanted to just quickly listen to that one song without too much hastle, right from the commandline?
+                            Well, yplayer has got you covered. It's a small CLI script written with Node.js to quickly list, download and play music from one of the largest databases of music on this planet: YouTube. Just install via npm, insert your YouTube API Datakey and type "yplayer -s &lt;your song&gt;". It's that easy.
+                        </p>
+                    </div>
+                    <div class="plateau screenshot visible">
+
+                    </div>
+                </div>
+                <div class="pane">
+                    <div class="plateau description visible">
+                        <h1>Dropzone</h1>
+                        <hr>
+                        <p>
+                            Another one of my most polished projects. Dropzone is a small desktop application that hosts your files without a third-party with theoratical unlimited download speed. Just drag-and-drop your files directly into the app window and it will be instantly online. The app takes care of the hosting, port forwarding and streaming.<br><br>The files that are being shared can be previewed on a web frontend by the downloaders. Large media files like homemovies, music or cool gameclips can be instantly streamed through the webinterface as well.
+                        </p>
+                    </div>
+                    <div class="plateau screenshot visible">
+
+                    </div>
+                </div>
+                <div class="pane">
+                    <div class="plateau description">
+                        <h1>Rooster.io</h1>
+                        <hr />
+                        <p>
+                            <a href="http://werkmanrooster.nl">Live</a> on a domain with a different name, rooster.io is a webfrontend for delivering schedules for the students and teachers of Werkman College Stadslyceum. What started as a small project from a couple of students years ago, has grown into the most used schedule site by students. This is my implementation of it.<br><br>
+                            This is the project I've spent my most time on during my highschool years. It's a simple database-driven web application that uses Express.js for the frontend, MongoDB or NeDB for the database, Jade for templating, LESS for style templating and my own authentication code.
+                            
+                        </p>
+                    </div>
+                    <div class="plateau screenshot">
+
+                    </div>
+                </div>
             </div>
         </section>
         <section class="me">
@@ -49,6 +99,5 @@
             </div>
         </section>
         <div class="next"><div><span>\/</span></div></div>
-        <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
     </body>
 </html>

@@ -9,11 +9,23 @@ html, body {
 }
 
 section {
-    height: 20%;
+    height: 25%;
     background-size: 100%;
     background-attachment: fixed;
     display: flex;
+    background-repeat: no-repeat;
     -webkit-transition: 1s ease;
+    color: #FFF;
+}
+
+section * {
+    opacity: 0;
+    transition: 1s ease;
+}
+
+section.visible * {
+    opacity: 1;
+    transition: .6s ease;
 }
 
 section.folded {
@@ -30,7 +42,7 @@ section.folded {
     opacity: 0;
     width: initial;
     -webkit-transition: 0.5s all;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(25, 25, 25, 0.75);
     font-weight: 100;
 }
 
@@ -39,8 +51,8 @@ h1.start {
   position: fixed;
   width: 100%;
   top: 50%;
-  height: 150px;
-  margin-top: -75px;
+  height: 180px;
+  margin-top: -90px;
 }
 
 .visible .slidetext {
@@ -64,7 +76,7 @@ h1.start {
     width: 100px;
     display: inline-block;
     border-radius: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(25, 25, 25, 0.8);
 }
 
 .next div span {
@@ -103,4 +115,155 @@ h1.start {
 
 .me {
     background-image: url('images/road.jpg');
+}
+
+
+
+
+
+
+
+.faceholder {
+    width: calc(50% - 30px);
+    height: 500px;
+    margin-top: -250px;
+    margin-left: 30px;
+    text-align: center;
+    float: left;
+    display: inline;
+    position: relative;
+    top: 50%;
+}
+
+.faceholder img {
+    border-radius: 100%;
+    border: solid 5px #96AA48;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.faceholder div {
+    font-size: 20px;    
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    background-color: rgba(25, 25, 25, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.facetext {
+    float: right;
+    margin-top: 70px !important;
+}
+
+p {
+    padding: 30px;
+}
+
+div.center {
+    margin: 0 auto;
+    max-height: calc(100% - 300px) !important;
+    margin-top: 35px;
+}
+
+p.center {
+    text-align: center;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    margin-top: -110px;
+}
+
+p {
+    text-shadow: 0px -1px 0px #000;
+    font-size: 20px;
+    color: #E1E1E1;
+}
+
+.plateau {
+    width: calc(50% - 32px);
+    margin-right: 30px;
+    height: calc(100% - 150px);
+    margin-top: 30px;
+/*    background-color: rgba(148, 148, 148, 0.8);*/
+    background-color: rgba(33, 33, 33, 0.8);
+    border: solid 1px #444;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 3px 30px 0px #333;
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+    font-weight: 100;
+    font-size: 35px
+}
+
+h2.center {
+    text-align: center;
+}
+
+div.buttons ul {
+    list-style: none;
+    padding: 0px;
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+div.buttons ul li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    display: inline;
+    text-align: center;
+    background-color: rgba(190, 25, 30, 0.35);
+    line-height: 200px;
+    border-radius: 100%;
+}
+
+div.description {
+    max-width: 30%;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    opacity: 0;
+}
+
+div.description p, div.description h1 {
+    margin: 0 30px;
+}
+
+.screenshot {
+    display: inline-block;
+    margin: 0 !important;
+    width: calc(70% - 65px) !important;
+    margin-top: 10px !important;
+    opacity: 0 !important;
+}
+
+.showcase .pane {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.visible {
+    opacity: 1 !important;
+}
+
+.description h1 {
+    font-family: Open Sans;
+    font-weight: 100;
+    margin: 20px !important;
+}
+
+hr {
+    border-color: #AAA;
 }
