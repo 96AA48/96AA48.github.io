@@ -224,9 +224,9 @@ div.buttons ul li {
     height: 200px;
     display: inline;
     text-align: center;
-    background-color: rgba(190, 25, 30, 0.35);
     line-height: 200px;
     border-radius: 100%;
+    position: relative;
 }
 
 div.description {
@@ -266,4 +266,55 @@ div.description p, div.description h1 {
 
 hr {
     border-color: #AAA;
+}
+
+.buttons li > span {
+    position: absolute;
+}
+
+.ion-social-github {
+    top: -1px;
+    left: 11px;
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.ion-email {
+    font-size: 200px;
+    left: 18px;
+    top: 2px;
+    color: rgba(255, 255, 255, 0.3)
+}
+
+.buttons .nw-electron {
+    background-color: rgba(69, 130, 142, 0.7);
+}
+
+.buttons .node {
+    background-color: rgba(128, 189, 1, 0.7);
+}
+
+.buttons .html-css {
+    background-color: rgba(288, 77, 38, 0.7);
+}
+
+.buttons .unity {
+    background-color: rgba(41, 229, 183,  0.7);
+}
+
+.buttons .haxe {
+    background-color: rgba(234, 130, 32, 0.7);
+}
+
+.buttons .pen-paper {
+    background-color: rgba(228, 224, 213, 0.7);
+}
+
+.buttons .github {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.buttons .email {
+    background-color: rgba(30, 122, 215, 0.7);
 }
