@@ -1,0 +1,16 @@
+<div class="box">
+  <div class="overlay">
+  </div>
+
+  {% for slide in site.data.slides %}
+    <div class="{{ slide.id }}" style="background-image: url('{{ slide.background }}')">
+      <h1>{{ slide.title }}</h1>
+      <div class="slide">
+
+        {% capture markdown %}{% include slides/{{ slide.id }}.md %}{% endcapture %}
+
+        {{ markdown | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

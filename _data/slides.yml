@@ -1,0 +1,12 @@
+- id: about
+  title: About me
+  background: https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6UHHE19YG7.jpg
+- id: whycreate
+  title: Why I create
+  background: https://snap-photos.s3.amazonaws.com/img-thumbs/960w/UYR9S9MIDW.jpg
+- id: portfolio
+  title: Portfolio
+  background: https://snap-photos.s3.amazonaws.com/img-thumbs/960w/QUDRF9ALH7.jpg
+- id: contact
+  title: Contact me
+  background: https://snap-photos.s3.amazonaws.com/img-thumbs/960w/P1ECJCIPFQ.jpg

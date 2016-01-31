@@ -1,0 +1,124 @@
+// Magix box styles
+// ---------------------------------------/
+
+.box {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: 1s ease;
+
+  &:hover {
+    transition: 1s ease;
+    transform: rotate(0deg) translate(-50%, -50%);
+
+    .overlay {
+      transition: 1s ease;
+      opacity: 0;
+    }
+  }
+
+  &.unfolded {
+    transform: translate(-50%, -50%);
+    top: 30%;
+    margin: 50px auto;
+
+    .overlay {
+      display: none;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    margin: 50% 50%;
+    transform: rotate(-45deg);
+    top: -75px;
+    left: -75px;
+    border-radius: 100%;
+    background-image: url('http://96aa48.github.io/face.png');
+    border: solid 3px #96AA48;
+    background-size: cover;
+    transition: 1s ease;
+  }
+
+  div {
+    transition: 1s ease;
+
+    p, li {
+      font-family: $body-font;
+      font-size: $body-font-size;
+    }
+
+    &.unfolded {
+      transition: 1s ease;
+      height: auto;
+
+      * {
+        opacity: 1;
+      }
+    }
+
+    * {
+      transition: .3s ease;
+      opacity: 0;
+    }
+
+    h1 {
+     color: #FFF;
+     padding: 0px;
+     margin: 0px;
+     text-align: center;
+     line-height: 132px;
+     text-transform: uppercase;
+     text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.4);
+     opacity: 1;
+    }
+
+   height: 25%;
+   background-size: cover;
+   overflow: hidden;
+  }
+}
+
+.box div {
+  position: relative;
+
+  .slide {
+    margin: 0px 20px;
+    padding: 1px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #F1F1F1;
+    bottom: 20px;
+  }
+}
+
+.contactbuttons {
+  justify-content: space-around;
+  display: flex;
+  padding-bottom: 20px;
+  position: relative;
+
+  a {
+    color: #C1C1C1 !important;
+    text-decoration: none;
+    font-family: $body-font;
+    text-align: center;
+    line-height: 75px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  div {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+  }
+
+}

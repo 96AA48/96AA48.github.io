@@ -1,0 +1,27 @@
+- name: Werkmanrooster
+  thumbnail:
+  id: werkmanrooster
+
+- name: gmplayer
+  thumbnail:
+  id: gmplayer
+
+- name: yplayer
+  thumbnail:
+  id: yplayer
+
+- name: Dropzone
+  thumbnail:
+  id: dropzone
+
+- name: spaaace
+  thumbnail:
+  id: spaaace
+
+- name: Instachrome
+  thumbnail:
+  id: instachrome
+
+- name: node-stocksnap.io
+  thumbnail:
+  id: node-stocksnap.io
