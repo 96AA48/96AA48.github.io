@@ -1,3 +1,5 @@
+Click one of the thumbnails to get the details of the project.  
+
 <div class="portfoliogrid">
 {% for project in site.data.portfolio %}
   <div class="{{ project.id }}" style="background-image: url('{{ project.image }}')">
