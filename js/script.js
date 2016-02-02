@@ -13,9 +13,13 @@ $(document).ready(function () {
   });
 
   $(document).click(function (e) {
-    console.log('something', e);
     if (e.target.tagName == 'HTML') {
       $('.box > div, .box').removeClass('unfolded');
     }
-  })
+  });
+
+  $('.portfoliogrid > div').click(function () {
+    $('.project').removeClass('selected');
+    $('.project.' + $(this).attr('class')).addClass('selected');
+  });
 });

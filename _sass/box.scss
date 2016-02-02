@@ -78,6 +78,7 @@
      text-transform: uppercase;
      text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.4);
      opacity: 1;
+     cursor: pointer;
     }
 
    height: 25%;
@@ -121,4 +122,31 @@
     width: 75px;
   }
 
+}
+
+.project {
+  opacity: 0 !important;
+  transition: 1s ease;
+  height: 0px !important;
+
+  &.selected {
+    transition: 1s ease;
+    opacity: 1 !important;
+    height: auto !important;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.portfoliogrid {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+
+  div {
+    height: 100px;
+    width: 100px;
+  }
 }

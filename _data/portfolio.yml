@@ -1,27 +1,34 @@
 - name: Werkmanrooster
-  thumbnail:
+  image: https://camo.githubusercontent.com/1531c25bf62ada558e8de53da91f12c03693a06e/687474703a2f2f692e696d6775722e636f6d2f356e584c51654d2e706e67
   id: werkmanrooster
+  link: https://github.com/96aa48/rooster.io
 
 - name: gmplayer
-  thumbnail:
+  image: http://i.imgur.com/3jgTt3D.gif
   id: gmplayer
+  link: https://github.com/96aa48/gmplayer
 
 - name: yplayer
-  thumbnail:
+  image: http://i.imgur.com/86pOZR5.gif
   id: yplayer
+  link: https://github.com/96aa48/yplayer
 
 - name: Dropzone
-  thumbnail:
+  image: https://camo.githubusercontent.com/988854c1837f79ca73380831fd7450065bad818b/687474703a2f2f692e696d6775722e636f6d2f663155437a57462e706e67
   id: dropzone
+  link: https://github.com/96aa48/dropzone
 
-- name: spaaace
-  thumbnail:
+- name: Spàààce
+  image: https://camo.githubusercontent.com/69a862a01f60c1fa6fa835a4df43fc46aad675f7/687474703a2f2f692e696d6775722e636f6d2f4f5734484e6a482e706e67
   id: spaaace
+  link: https://github.com/96aa48/spaaace
 
 - name: Instachrome
-  thumbnail:
+  image: https://camo.githubusercontent.com/a93f6104d85fe84276b31c5c853ce89c638bc459/687474703a2f2f692e696d6775722e636f6d2f7468664f39656a2e706e67
   id: instachrome
+  link: https://github.com/96aa48/instachrome
 
 - name: node-stocksnap.io
-  thumbnail:
+  # image:
   id: node-stocksnap.io
+  link: https://github.com/96aa48/node-stocksnap.io
