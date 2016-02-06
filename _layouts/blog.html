@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+
+    <div class="page-content">
+      {% include box.html box="small" %}
+      <div class="wrapper index">
+        <ul class="posts">
+        {% for post in site.posts %}
+          <li>
+              <h1>{{ post.title }}</h1>
+              <p>{{ post.content | truncatewords: post.preview  }}</p>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

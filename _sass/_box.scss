@@ -2,6 +2,23 @@
 // ---------------------------------------/
 
 .box {
+  &.small {
+    height: 175px;
+    width: 175px;
+    position: static;
+    top: initial;
+    left: initial;
+    transform: translate(0, -50%) rotate(45deg);
+
+    &:hover {
+      transform: translate(0, -50%) rotate(0deg);
+    }
+
+    .overlay {
+      display: none;
+    }
+  }
+
   height: 500px;
   width: 500px;
   position: absolute;
@@ -29,6 +46,10 @@
     .overlay {
       display: none;
     }
+  }
+
+  a {
+    color: #E04D4D;
   }
 
   .overlay {
@@ -148,5 +169,17 @@
   div {
     height: 100px;
     width: 100px;
+  }
+}
+
+#bloghint {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+
+  a {
+    color: #CDCDCD;
+    font-size: 20px;
   }
 }

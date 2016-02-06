@@ -1,0 +1,29 @@
+// Blog styles
+// ---------------------------------------/
+
+html {
+  background-color: #333;
+}
+
+.page-content {
+  background-color: #F1F1F1;
+  width: 800px;
+  margin: 145px auto;
+
+  .box {
+    margin: 0 auto;
+  }
+}
+
+.wrapper {
+  margin-top: -50px;
+
+  ul.posts {
+    list-style: none;
+    padding: 0px;
+
+    li {
+      border-bottom: solid 1px red;
+    }
+  }
+}
