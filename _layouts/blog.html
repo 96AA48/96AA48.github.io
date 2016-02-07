@@ -11,9 +11,11 @@
       <div class="wrapper index">
         <ul class="posts">
         {% for post in site.posts %}
-          <li>
+          <li style="background-image: url('{{ post.thumb }}')">
+            <a href="{{ post.url }}">
               <h1>{{ post.title }}</h1>
-              <p>{{ post.content | truncatewords: post.preview  }}</p>
+              <!-- <p>{{ post.content | truncatewords: post.preview  }}</p> -->
+            </a>
           </li>
         {% endfor %}
         </ul>

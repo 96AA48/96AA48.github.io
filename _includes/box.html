@@ -1,5 +1,6 @@
 <div class="box {{ include.box }}">
-  <div class="overlay">
+  <div class="overlay" >
+    <div class="overlayimage" style="background-image: url('{{ include.thumb || site.headshot }}')"></div>
   </div>
 
   {% for slide in site.data.slides %}

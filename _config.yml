@@ -3,6 +3,8 @@ title: "Jekyll Boilerplate"
 description: "site description goes here"
 
 url: "http://yourdomain.com"
+headshot: "http://96aa48.github.io/face.png"
+permalink: date
 
 # Build settings
 markdown: kramdown

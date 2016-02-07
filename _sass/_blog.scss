@@ -2,28 +2,85 @@
 // ---------------------------------------/
 
 html {
-  background-color: #333;
+  background-color: #5F5F5F;
 }
 
 .page-content {
-  background-color: #F1F1F1;
+  background-color: rgba(253, 253, 253, 0.95);
   width: 800px;
   margin: 145px auto;
 
   .box {
     margin: 0 auto;
+    z-index: 2;
+    position: relative !important;
+
+    &.small {
+      height: 175px;
+      width: 175px;
+      position: static;
+      top: initial;
+      left: initial;
+      transform: translate(0, -50%) rotate(45deg);
+
+      &:hover {
+        transform: translate(0, -50%) rotate(0deg);
+      }
+
+      .overlay {
+        // display: none;
+      }
+    }
+
+    &.post .overlayimage {
+
+    }
   }
 }
 
 .wrapper {
-  margin-top: -50px;
+  padding-bottom: 5px;
+
+  &.post {
+    // padding-top: 100px;
+  }
+
+  &.index {
+    margin-top: -160px;
+  }
 
   ul.posts {
     list-style: none;
     padding: 0px;
 
     li {
-      border-bottom: solid 1px red;
+      height: 200px;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      border: solid 5px rgba(253, 253, 253, 0.7);
+      transition: .3s ease;
+      margin-bottom: 20px;
+
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+
+      &:hover {
+        border: solid 5px rgba(253, 253, 253, 0.2);
+        transition: .3s ease;
+      }
+
+      h1 {
+        color: #FFF;
+        text-transform: uppercase;
+        text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
+        position: absolute;
+        left: 10px;
+        bottom: -12px;
+      }
     }
   }
 }
