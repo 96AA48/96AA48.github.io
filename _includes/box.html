@@ -1,6 +1,10 @@
 <div class="box {{ include.box }}">
-  <div class="overlay" >
-    <div class="overlayimage" style="background-image: url('{{ include.thumb || site.headshot }}')"></div>
+  <div class="overlay">
+    {% if include.thumb %}
+    <div class="overlayimage" style="background-image: url('{{ include.thumb }}')"></div>
+    {% else %}
+    <div class="overlayimage" style="background-image: url('{{ site.headshot }}')"></div>
+    {% endif %}
   </div>
 
   {% for slide in site.data.slides %}
