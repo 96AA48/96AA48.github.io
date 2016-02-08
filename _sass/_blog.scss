@@ -7,7 +7,7 @@ html {
 
 .page-content {
   background-color: rgba(253, 253, 253, 0.95);
-  width: 800px;
+  width: 700px;
   margin: 145px auto;
 
   .box {
@@ -42,6 +42,12 @@ html {
       text-transform: uppercase;
       text-align: center;
       font-weight: 400;
+    }
+
+    code {
+      padding: 2px;
+      background-color: #EEF;
+      border-radius: 2px;
     }
   }
 

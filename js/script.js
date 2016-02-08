@@ -1,15 +1,19 @@
 $(document).ready(function () {
   $('.box > div').click(function () {
-    if ($('.box').hasClass('unfolded')) {
-      $('.box > div').removeClass('unfolded');
-      $(this).addClass('unfolded');
+    if ($('.box').hasClass('small')) {
+      $('.box').removeClass('small');
     }
     else {
-      $('.box').toggleClass('unfolded');
-      $('.box > div').removeClass('unfolded');
-      $(this).addClass('unfolded');
+      if ($('.box').hasClass('unfolded')) {
+        $('.box > div').removeClass('unfolded');
+        $(this).addClass('unfolded');
+      }
+      else {
+        $('.box').toggleClass('unfolded');
+        $('.box > div').removeClass('unfolded');
+        $(this).addClass('unfolded');
+      }
     }
-    // $('.box')
   });
 
   $(document).click(function (e) {
