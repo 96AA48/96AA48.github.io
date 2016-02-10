@@ -5,7 +5,7 @@ date: 2015-09-19
 preview: 50
 backgrounds:
     - https://images.unsplash.com/photo-1438109519352-a52c41243c1a?q=80&fm=jpg&s=5e94365bd19daae00de012e317152490
-thumb: https://snap-photos.s3.amazonaws.com/img-thumbs/960w/MKAANBOC1N.jpg
+thumb: http://static.simpledesktops.com/uploads/desktops/2015/09/25/Siri.png
 categories: meta
 tags: developer start blogging meta
 ---

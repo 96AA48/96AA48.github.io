@@ -4,8 +4,7 @@
   {% include head.html %}
 
   <body>
-
-
+    <div id="background" style="background-image: url('{{ page.backgrounds.first }}')"></div>
     <div class="page-content">
       {% include box.html box="small post" thumb=page.thumb %}
       <div class="wrapper post">
@@ -21,11 +20,33 @@
         <h1>{{ page.title }}</h1>
 
         {{ content }}
+
+        <div id="meta">
+          <ul>
+            <li>
+              <h4>Date</h4>
+              {{ page.date | date_to_long_string }}
+            </li>
+            <li>
+              <h4>Categories</h4>
+              {% for category in page.categories %}
+                {{ category | capitalize }}
+              {% endfor %}
+            </li>
+            <li>
+              <h4>Tags</h4>
+              {% for tag in page.tags %}
+                {{ tag | capitalize }}
+              {% endfor %}
+            </li>
+          </ul>
+        </div>
+
+        <div class="share">
+          {% include share.html %}
+        </div>
+        
       </div>
     </div>
-
-    {% include footer.html %}
-
   </body>
-
 </html>

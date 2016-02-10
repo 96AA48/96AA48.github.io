@@ -7,8 +7,12 @@
 
     {% include box.html %}
 
-    <div id="bloghint">
-      <a href="/blog">Blog</a>
+    <div id="bloghint" style="background-image: url('{{ site.posts.first.thumb }}')">
+      <a href="{{ site.posts.first.url }}" target="_blank">
+        <h2>Last blog post</h2>
+
+        <h1>{{ site.posts.first.title }}</h1>
+      </a>
     </div>
 
   </body>

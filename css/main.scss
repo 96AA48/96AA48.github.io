@@ -1,10 +1,13 @@
 ---
 ---
+// Importing fonts
+@import "fonts";
 
 // "Reset" styles and SCSS reusable components
 @import "normalize";
 @import "mixins";
 @import "variables";
+@import "social";
 
 // Generic site base & layout styles
 @import "base";
