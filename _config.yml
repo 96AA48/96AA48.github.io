@@ -2,8 +2,9 @@
 title: "Jekyll Boilerplate"
 description: "site description goes here"
 
-url: "http://yourdomain.com"
-headshot: "http://96aa48.github.io/face.png"
+url: http://yourdomain.com
+headshot: http://96aa48.github.io/face.png
+portfoliobackground: http://static.simpledesktops.com/uploads/desktops/2014/07/09/Satellites-Wallpaper.png
 permalink: date
 
 # Build settings

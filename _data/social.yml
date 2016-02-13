@@ -6,6 +6,6 @@ linkedin: false
 reddit: true
 hackernews: true
 pinterest: false
-tumblr: false
-pocket: true
-email: false
+tumblr: true
+pocket: false
+email: true

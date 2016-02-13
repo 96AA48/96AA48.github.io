@@ -17,9 +17,13 @@ $(document).ready(function () {
   });
 
   $(document).click(function (e) {
-    if (e.target.tagName == 'HTML') {
+    console.log(e.target.tagName);
+    if (e.target.tagName == 'HTML' || e.target.tagName == 'BODY') {
       $('.box > div, .box').removeClass('unfolded');
+
+      if ($('.box').hasClass('post')) $('.box').addClass('small');
     }
+    console.log($(e.target).parents());
   });
 
   $('.portfoliogrid > div').click(function () {

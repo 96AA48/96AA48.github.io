@@ -6,6 +6,14 @@
   <body>
     <div id="background" style="background-image: url('{{ page.backgrounds.first }}')"></div>
     <div class="page-content">
+
+      <a href="/blog" id="back">Back to the Blog</a>
+      {% assign author = site.data.authors[page.author] %}
+      <div class="author">
+        <div style="background-image: url('{{ author.avatar }}')"></div>
+        <sup>By {{ author.fullname }}</sup>
+      </div>
+
       {% include box.html box="small post" thumb=page.thumb %}
       <div class="wrapper post">
         <p class="readingtime">&#126;
@@ -18,7 +26,6 @@
         </p>
 
         <h1>{{ page.title }}</h1>
-
         {{ content }}
 
         <div id="meta">
@@ -45,7 +52,7 @@
         <div class="share">
           {% include share.html %}
         </div>
-        
+
       </div>
     </div>
   </body>

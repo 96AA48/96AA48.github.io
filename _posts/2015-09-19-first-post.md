@@ -8,6 +8,7 @@ backgrounds:
 thumb: http://static.simpledesktops.com/uploads/desktops/2015/09/25/Siri.png
 categories: meta
 tags: developer start blogging meta
+author: bram
 ---
 
 So here it is, my first "real" blog. I've had several small blogs already, but most of them on shitty `.tk` domains in order to be a real "webdeveloper" when I was 12. Things have changed since then, for the better (I hope). I've self studied my way into being a somewhat capable developer, using mostly Javascript and Node.js. Slowly moving towards using Unity3D and other platforms/frameworks. Sometimes even trying new languages or things along those lines.
