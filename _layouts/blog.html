@@ -10,7 +10,7 @@
       <div class="wrapper index">
         <ul class="posts">
         {% for post in site.posts %}
-          <li style="background-image: url('{{ post.thumb }}')">
+          <li style="background-image: url('{{ post.thumb }}')" data-thumb="{{ post.backgrounds.first }}">
             <a href="{{ post.url }}">
               <h1>{{ post.title }}</h1>
               <!-- <p>{{ post.content | truncatewords: post.preview  }}</p> -->

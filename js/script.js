@@ -16,6 +16,11 @@ $(document).ready(function () {
     }
   });
 
+  $('ul.posts li').hover(function () {
+    console.log('got a hover');
+    $('#background').attr('style', 'background-image: url("' + $(this).attr('data-thumb') + '");');
+  });
+
   $('*').click(function (e) {
     if ($(this).attr('id') == 'background') {
       $('.box > div, .box').removeClass('unfolded');

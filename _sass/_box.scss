@@ -174,7 +174,6 @@
   position: fixed;
   color: #F9F9F9;
   text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
-  // background-position: center;
   background-size: cover;
   font-family: $header-font;
   border-top-left-radius: 100%;
@@ -198,12 +197,31 @@
     margin-top: 45px;
     // display: none;
     transform: rotate(-45deg);
-
   }
+}
 
-  h2 {
-  }
+@media (max-width: 720px) {
+  .box {
+    transform: initial !important;
+    margin: initial;
+    position: absolute;
+    width: 100%;
+    height: auto;
 
-  h1 {
+    top: 0px;
+    bottom: 0px !important;
+    left: 0px;
+
+    .overlay {
+      display: none;
+    }
+
+    > div {
+      h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
   }
 }

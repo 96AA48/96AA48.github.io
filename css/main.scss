@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700,400italic|PT+Sans|Droid+Sans+Mono);
 
 // "Reset" styles and SCSS reusable components
+@import "skeleton";
 @import "normalize";
 @import "mixins";
 @import "variables";
