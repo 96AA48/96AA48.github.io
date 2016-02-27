@@ -16,14 +16,12 @@ $(document).ready(function () {
     }
   });
 
-  $(document).click(function (e) {
-    console.log(e.target.tagName);
-    if (e.target.tagName == 'HTML' || e.target.tagName == 'BODY') {
+  $('*').click(function (e) {
+    if ($(this).attr('id') == 'background') {
       $('.box > div, .box').removeClass('unfolded');
 
       if ($('.box').hasClass('post')) $('.box').addClass('small');
     }
-    console.log($(e.target).parents());
   });
 
   $('.portfoliogrid > div').click(function () {
