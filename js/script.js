@@ -14,11 +14,17 @@ $(document).ready(function () {
         $(this).addClass('unfolded');
       }
     }
+
   });
 
   $('ul.posts li').hover(function () {
-    console.log('got a hover');
-    $('#background').attr('style', 'background-image: url("' + $(this).attr('data-thumb') + '");');
+    $('#background').addClass('fade');
+    (function (dis) {
+      setTimeout(function () {
+        console.log('Done waitin');
+        backstretch($(dis).attr('data-thumb'));
+      }, 500);
+    })(this);
   });
 
   $('*').click(function (e) {
@@ -34,3 +40,12 @@ $(document).ready(function () {
     $('.project.' + $(this).attr('class')).addClass('selected');
   });
 });
+
+function backstretch(url) {
+  $('#background').backstretch(url);
+
+  $(document.body).on("backstretch.show", function () {
+    $('#background').removeClass('fade');
+
+  })
+}

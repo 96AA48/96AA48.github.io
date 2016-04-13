@@ -6,7 +6,7 @@
   <body>
 
     {% include box.html %}
-    <div id="background" style="background-image: url('{{ site.portfoliobackground }}')"></div>
+    <div id="background" class="fade"></div>
     <div id="bloghint" style="background-image: url('{{ site.posts.first.thumb }}')">
       <a href="{{ site.posts.first.url }}" target="_blank">
         <h2>Latest post</h2>
@@ -14,7 +14,7 @@
         <h1>{{ site.posts.first.title }}</h1>
       </a>
     </div>
-
+    <script type="text/javascript">backstretch("{{ site.portfoliobackground }}")</script>
   </body>
 
 </html>

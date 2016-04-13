@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body>
-    <div id="background" style="background-image: url('{{ page.backgrounds.first }}')"></div>
+    <div id="background" class="fade"></div>
     <div class="page-content">
 
       <a href="/blog" id="back">Back to the Blog</a>
@@ -55,5 +55,6 @@
 
       </div>
     </div>
+    <script type="text/javascript">backstretch("{{ page.backgrounds.first }}")</script>
   </body>
 </html>
