@@ -5,7 +5,7 @@ You can contact me via my email, phone or github.
     <div>E</div>
     <!-- <sup>96AA48@gmail.com</sup> -->
   </a>
-  <a href="">
+  <a href="tel://31-624-676-366">
     <div>+31</div>
     <!-- <sup>+316 24676366</sup> -->
   </a>
