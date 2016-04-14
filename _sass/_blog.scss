@@ -85,7 +85,7 @@ a:visited {
 
     code {
       padding: 2px;
-      background-color: #EEF;
+      // background-color: #EEF;
       border-radius: 2px;
     }
 
@@ -215,5 +215,37 @@ ul.posts {
   sup {
     top: -20px;
     left: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  .page-content {
+    margin-top: 140px !important;
+    width: 100%;
+  }
+
+  .box.small {
+    pointer-events: none;
+    position: relative !important;
+    top: -75px !important;
+    height: 150px !important;
+    width: 150px !important;
+    transform: rotate(45deg) !important;
+
+    .overlay {
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 150px !important;
+      width: 150px !important;
+      transform: none;
+      margin: 0px;
+
+      .overlayimage {
+        height: 210px !important;
+        width: 210px !important;
+      }
+    }
   }
 }
