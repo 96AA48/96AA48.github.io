@@ -54,10 +54,11 @@
       transform: rotate(-45deg) translateY(-21%);
       background-position: center !important;
       opacity: 1;
+      background-size: cover;
     }
   }
 
-  div {
+  > div {
     transition: 1s ease;
     height: 25%;
     background-size: cover;
@@ -110,6 +111,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: #F1F1F1;
     bottom: 20px;
+    min-height: 120px;
   }
 }
 
@@ -135,7 +137,6 @@
     height: 75px;
     width: 75px;
   }
-
 }
 
 .project {
