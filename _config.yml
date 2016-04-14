@@ -1,9 +1,9 @@
 # Site settings
-title: "Jekyll Boilerplate"
-description: "site description goes here"
+title: "Portfolio"
+description: "Hey there, my name is Bram and this is my portfolio! Come check out my stuff!"
 
-url: http://yourdomain.com
-headshot: http://96aa48.github.io/face.png
+url: http://96aa48.github.io
+headshot: https://avatars0.githubusercontent.com/u/3514405?v=3&s=460
 portfoliobackground: http://static.simpledesktops.com/uploads/desktops/2014/07/09/Satellites-Wallpaper.png
 permalink: date
 
