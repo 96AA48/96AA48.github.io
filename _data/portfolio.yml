@@ -18,6 +18,11 @@
   id: dropzone
   link: https://github.com/96aa48/dropzone
 
+- name: Bridge
+  image: https://camo.githubusercontent.com/77c027fae5aa6f5053f26e8e40939cc3fafcc2e7/687474703a2f2f692e696d6775722e636f6d2f323350705348362e676966
+  id: bridge
+  link: https://github.com/96aa48/bridge
+
 - name: Spàààce
   image: https://camo.githubusercontent.com/69a862a01f60c1fa6fa835a4df43fc46aad675f7/687474703a2f2f692e696d6775722e636f6d2f4f5734484e6a482e706e67
   id: spaaace

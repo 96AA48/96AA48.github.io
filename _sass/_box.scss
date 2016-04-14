@@ -36,6 +36,10 @@
     color: #E04D4D;
   }
 
+  p {
+    text-align: justify;
+  }
+
   .overlay {
     position: absolute;
     z-index: 1;
@@ -151,18 +155,23 @@
   }
 
   img {
-    width: 100%;
+    max-height: 350px;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
   }
 }
 
 .portfoliogrid {
-  display: flex;
+  text-align: center;
   justify-content: space-between;
-  margin: 10px 0px;
+  margin: 0 auto;
 
   div {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    display: inline-block;
   }
 }
 
@@ -175,6 +184,7 @@
   color: #F9F9F9;
   text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.4);
   background-size: cover;
+  background-position: 50% 50%;
   font-family: $header-font;
   border-top-left-radius: 100%;
   transition: .3s ease;
@@ -194,9 +204,11 @@
   }
 
   h1, h2 {
-    margin-top: 45px;
+    position: relative;
+    top: 50px;
+    left: 10px;
     // display: none;
-    transform: rotate(-45deg);
+    // transform: rotate(-45deg);
   }
 }
 
