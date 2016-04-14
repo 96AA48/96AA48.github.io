@@ -59,6 +59,9 @@
 
   div {
     transition: 1s ease;
+    height: 25%;
+    background-size: cover;
+    overflow: hidden;
 
     p, li {
       font-family: $content-font;
@@ -95,10 +98,6 @@
     h3 {
       font-family: $header-font;
     }
-
-   height: 25%;
-   background-size: cover;
-   overflow: hidden;
   }
 }
 
@@ -212,16 +211,32 @@
     bottom: 0px !important;
     left: 0px;
 
+    &.unfolded {
+      position: absolute !important;
+      top: 0px;
+      margin: 0px;
+
+      > div {
+
+      }
+    }
+
     .overlay {
       display: none;
     }
 
     > div {
+      height: 25%;
+
       h1 {
         display: flex;
         justify-content: center;
         align-items: center;
       }
     }
+  }
+
+  #bloghint {
+    display: none;
   }
 }

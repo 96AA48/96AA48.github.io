@@ -21,7 +21,6 @@ $(document).ready(function () {
     $('#background').addClass('fade');
     (function (dis) {
       setTimeout(function () {
-        console.log('Done waitin');
         backstretch($(dis).attr('data-thumb'));
       }, 500);
     })(this);
