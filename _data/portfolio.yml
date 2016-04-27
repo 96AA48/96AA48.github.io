@@ -8,6 +8,11 @@
   id: gmplayer
   link: https://github.com/96aa48/gmplayer
 
+- name: Werkmanbijles
+  image: https://i.imgur.com/7b8YTi1.png
+  id: werkmanbijles
+  link: http://werkmanbijles.nl
+
 - name: yplayer
   image: http://i.imgur.com/86pOZR5.gif
   id: yplayer
