@@ -3,20 +3,31 @@
   id: werkmanrooster
   link: https://github.com/96aa48/rooster.io
 
-- name: gmplayer
-  image: http://i.imgur.com/3jgTt3D.gif
-  id: gmplayer
-  link: https://github.com/96aa48/gmplayer
-
 - name: Werkmanbijles
   image: https://i.imgur.com/7b8YTi1.png
   id: werkmanbijles
   link: http://werkmanbijles.nl
 
+- name: gmplayer
+  image: http://i.imgur.com/3jgTt3D.gif
+  id: gmplayer
+  link: https://npmjs.org/gmplayer
+
+- name: galaxygen
+  image: https://i.imgur.com/lrZOJWy.gif
+  id: galaxygen
+  link: https://npmjs.org/galaxygen/
+
+- name: journally
+  image: https://i.imgur.com/8zM05pA.gif
+  id: journally
+  link: https://npmjs.org/journally
+
+
 - name: yplayer
   image: http://i.imgur.com/86pOZR5.gif
   id: yplayer
-  link: https://github.com/96aa48/yplayer
+  link: https://npmjs.org/yplayer
 
 - name: Dropzone
   image: https://camo.githubusercontent.com/988854c1837f79ca73380831fd7450065bad818b/687474703a2f2f692e696d6775722e636f6d2f663155437a57462e706e67
@@ -32,8 +43,3 @@
   image: https://camo.githubusercontent.com/69a862a01f60c1fa6fa835a4df43fc46aad675f7/687474703a2f2f692e696d6775722e636f6d2f4f5734484e6a482e706e67
   id: spaaace
   link: https://github.com/96aa48/spaaace
-
-- name: Instachrome
-  image: https://camo.githubusercontent.com/a93f6104d85fe84276b31c5c853ce89c638bc459/687474703a2f2f692e696d6775722e636f6d2f7468664f39656a2e706e67
-  id: instachrome
-  link: https://github.com/96aa48/instachrome
